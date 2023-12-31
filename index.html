@@ -13,6 +13,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karla", sans-serif}
 body, html {
   height: 100%;
   line-height: 1.8;
+  scroll-behavior: smooth;
 }
 
 /* Full height image header */
@@ -38,6 +39,7 @@ body, html {
     <div class="right hide-small">
       <a href="#journey" class="bar-item button"><i class="fa fa-road"></i> JOURNEY</a>
       <a href="#about" class="bar-item button"><i class="fa fa-user"></i> ABOUT ME</a>
+      <a href="#skills" class="bar-item button"><i class="fa fa-check"></i> SKILLS</a>
       <a href="#portfolio" class="bar-item button"><i class="fa fa-th"></i> PORTFOLIO</a>
       <a href="#contact" class="bar-item button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
@@ -65,7 +67,7 @@ body, html {
     <span class="xxlarge hide-large hide-medium">Karla Kososki Barth</span><br>
     <span class="large">Coding a sustainable future, one project at a time</span>
   </div> 
-  <div class="display-bottomleft text-grey large" style="padding:24px 48px">
+  <div class="display-bottomleft text-grey xlarge" style="padding:24px 48px">
     <a target="_blank" href="https://www.instagram.com/kkososki/"><i class="fa fa-instagram hover-opacity"></i></a>
     <a target="_blank" href="https://www.linkedin.com/in/karla-barth-54631952/"><i class="fa fa-linkedin hover-opacity"></i></a>
     <a target="_blank" href="https://github.com/kkososki"><i class="fa fa-github hover-opacity"></i></a>
@@ -108,7 +110,7 @@ body, html {
     <div class="col m4">
       <img class="image" style="padding-top: 20px;" src="foto1.png" alt="Buildings" width="250">        
     </div>
-    <div class="col m8" style="padding-left: 60px;">
+    <div class="col m8" style="padding-left: 60px; padding-bottom: 32px;">
       <h3>Meet me.</h3>
       <p>I am a passionate woman who finds joy in the simple pleasures of life, particularly in the companionship of my dogs, the intricate art of coding, and the conscious choices that embody sustainability in my day-to-day existence. Fueled by a love for technology and a deep connection with the environment, I navigate the world with a purpose: to code a sustainable future. Whether immersed in the lines of code that shape my projects or embracing the paws and unconditional love of my canine friends, I am on a journey of balance, innovation, and a commitment to creating a positive impact in the world.</p>
     </div>
@@ -116,8 +118,8 @@ body, html {
 </div>
 
 <!-- Skills Section -->
-<div class="container center pale-purple" style="padding:128px 16px">
-  <h3>SKILLS</h3>
+<div class="container center pale-purple" style="padding:128px 16px" id="skills">
+  <!-- <h3>SKILLS</h3> -->
   <p class="large">A little bit of what I can do:</p>
   <div class="row-padding" style="margin-top:48px">
     <div class="third section">
@@ -235,23 +237,15 @@ body, html {
     <div class="col m6 margin-bottom">
       <div class="card">
         <img src="coding2.jpg" alt="Project 1" style="width:100%; max-height: 200px;">
-        <div class="container">
+        <div class="container" style="padding-bottom: 32px;">
           <p class="opacity">Kivy Lab</p>
           <p>An App created for learning and practicing many different elements in the Kivy library in Python.</p>
-          <p><button class="button light-grey block"><i class="fa fa-folder-open"></i> Know more</button></p>
+          <div style="width: 100%; text-align: center;">
+            <a class="link bar-item button" target="_blank" href="https://github.com/kkososki"><i class="fa fa-github hover-opacity"></i> Check it out!</a>
+          </div>
         </div>
       </div>
     </div>
-    <!-- <div class="col m6 margin-bottom">
-      <div class="card">
-        <img src="coding3.jpg" alt="Project 2" style="width:100%; max-height: 200px;">
-        <div class="container">
-          <p class="opacity">Project 2</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div> -->
   </div>
 </div>
 
