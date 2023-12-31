@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Karla Kososki Barth</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karla", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("coding4.png");
+  min-height: 100%;
+}
+
+.bar .button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar white card" id="myNavbar">
+    <a href="#home" class="bar-item button wide">KKB</a>
+    <!-- Right-sided navbar links -->
+    <div class="right hide-small">
+      <a href="#journey" class="bar-item button"><i class="fa fa-road"></i> JOURNEY</a>
+      <a href="#about" class="bar-item button"><i class="fa fa-user"></i> ABOUT ME</a>
+      <a href="#portfolio" class="bar-item button"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#contact" class="bar-item button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="bar-item button right hide-large hide-medium" onclick="f_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="sidebar bar-block black card animate-left hide-medium hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="f_close()" class="bar-item button large padding-16">Close ×</a>
+  <a href="#journey" onclick="f_close()" class="bar-item button">JOURNEY</a>
+  <a href="#about" onclick="f_close()" class="bar-item button">ABOUT ME</a>
+  <a href="#portfolio" onclick="f_close()" class="bar-item button">PORTFOLIO</a>
+  <a href="#contact" onclick="f_close()" class="bar-item button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 display-container grayscale-min" id="home">
+  <div class="display-left text-white" style="padding:48px">
+    <span class="jumbo hide-small">Karla Kososki Barth</span><br>
+    <span class="xxlarge hide-large hide-medium">Karla Kososki Barth</span><br>
+    <span class="large">Coding a sustainable future, one project at a time</span>
+  </div> 
+  <div class="display-bottomleft text-grey large" style="padding:24px 48px">
+    <a target="_blank" href="https://www.instagram.com/kkososki/"><i class="fa fa-instagram hover-opacity"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/karla-barth-54631952/"><i class="fa fa-linkedin hover-opacity"></i></a>
+    <a target="_blank" href="https://github.com/kkososki"><i class="fa fa-github hover-opacity"></i></a>
+    <a target="_self" href="mailto:kkososki@gmail.com?subject=Contact%20from%20website"><i class="fa fa-envelope hover-opacity"></i></a>
+  </div>
+</header>
+
+<!-- Journey Section -->
+<div id="journey" class="container dark-gray" style="padding:128px 16px">
+  <h3 class="center">Welcome to my coding journey!</h3>
+  <div class="row-padding center" style="margin-top:64px">
+    <div class="quarter">
+      <i class="fa fa-graduation-cap margin-bottom jumbo center"></i>
+      <p class="large">Education</p>
+      <p>As a soon-to-be graduate in both Environmental Engineering and Software Engineering, I am embarking on an exciting path where my dual expertise merges environmental insights with cutting-edge technology.</p>
+    </div>
+    <div class="quarter">
+      <i class="fa fa-desktop margin-bottom jumbo"></i>
+      <p class="large">Portfolio</p>
+      <p>While my professional coding portfolio is in its early stages, my enthusiasm for software development knows no bounds.</p>
+    </div>
+    <div class="quarter">
+      <i class="fa fa-calendar margin-bottom jumbo"></i>
+      <p class="large">Future</p>
+      <p>I envision a future where I contribute to environmental studies and collaborate with companies on innovative software solutions.</p>
+    </div>
+    <div class="quarter">
+      <i class="fa fa-heart margin-bottom jumbo"></i>
+      <p class="large">Passion</p>
+      <p>Coding, for me, is not just a skill; it's a passion I see myself cultivating and applying in meaningful ways throughout my career.</p>
+    </div>
+  </div>
+  <p class="center large" style="padding-top: 30px;">
+    Join me on this exciting adventure as I navigate the intersection of technology and environmental impact, eager to create software solutions that make a real difference</p>
+</div>
+
+<!-- About me -->
+<div class="container light-grey" style="padding:110px 16px" id="about">
+  <div class="row-padding">
+    <div class="col m4">
+      <img class="image" style="padding-top: 20px;" src="foto1.png" alt="Buildings" width="250">        
+    </div>
+    <div class="col m8" style="padding-left: 60px;">
+      <h3>Meet me.</h3>
+      <p>I am a passionate woman who finds joy in the simple pleasures of life, particularly in the companionship of my dogs, the intricate art of coding, and the conscious choices that embody sustainability in my day-to-day existence. Fueled by a love for technology and a deep connection with the environment, I navigate the world with a purpose: to code a sustainable future. Whether immersed in the lines of code that shape my projects or embracing the paws and unconditional love of my canine friends, I am on a journey of balance, innovation, and a commitment to creating a positive impact in the world.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="container center pale-purple" style="padding:128px 16px">
+  <h3>SKILLS</h3>
+  <p class="large">A little bit of what I can do:</p>
+  <div class="row-padding" style="margin-top:48px">
+    <div class="third section">
+      <ul class="ul white round-xlarge hover-shadow">
+        <li class="deep-purple round-xlarge xlarge padding-32">Programing</li>
+        <li class="dropdown-hover border-0" style="width: 100%;">
+          <button onclick="openAcc('Python')" class="button block">
+            Python  <i class="fa fa-chevron-down"></i></button>
+            <div id="Python" class="container hide pale-purple">
+              <p>Pandas | MatPlotLib</p>
+              <p>Numpy | TensorFlow</p>
+              <p>PyAutoGui | Kivy</p>
+              <p>Django</p>
+            </div>
+        </li>
+        <li class="padding-16 border-0">C++</li>
+        <li class="padding-16 border-0">Java</li>
+        <li class="dropdown-hover border-0" style="width: 100%;">
+          <button onclick="openAcc('Web')" class="button block">
+            Web  <i class="fa fa-chevron-down"></i></button>
+            <div id="Web" class="container hide pale-purple">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Javascript</p>
+            </div>
+        </li>
+        <li class="dropdown-hover border-0" style="width: 100%;">
+          <button onclick="openAcc('Data')" class="button block">
+            Data  <i class="fa fa-chevron-down"></i></button>
+            <div id="Data" class="container hide pale-purple">
+              <p>MongoDB</p>
+              <p>MySQL</p>
+            </div>
+        </li>
+        <li class="padding-16 border-0">Git</li>
+      </ul>
+    </div>
+    <div class="third section">
+      <ul class="ul white round-xlarge hover-shadow">
+        <li class="deep-purple round-xlarge xlarge padding-32">Soft Skills</li>
+        <li class="padding-16 border-0">Good communication</li>
+        <li class="padding-16 border-0">Problem solving</li>
+        <li class="padding-16 border-0">Adaptability</li>
+        <li class="padding-16 border-0">Fast learning</li>
+        <li class="padding-16 border-0">Attention to detail</li>
+      </ul>
+    </div>
+    <div class="third section">
+      <ul class="ul white round-xlarge hover-shadow">
+        <li class="deep-purple round-xlarge xlarge padding-32">Extra</li>
+        <li class="dropdown-hover border-0" style="width: 100%;">
+          <button onclick="openAcc('Languages')" class="button block">
+            Languages  <i class="fa fa-chevron-down"></i></button>
+            <div id="Languages" class="container hide pale-purple">
+              <p class="bar-item center" style="padding: 0; margin: 0;">Portuguese
+                <div class="container round deep-purple" style="width: 100%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>100%</i>
+                </div>
+              </p>
+              <p class="bar-item center" style="padding: 0; margin: 0;">English
+                <div class="container round deep-purple" style="width: 90%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>90%</i>
+                </div>
+              </p>
+              <p class="bar-item center" style="padding: 0; margin: 0;">German
+                <div class="container round deep-purple" style="width: 20%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>20%</i>
+                </div>
+              </p>
+              <p class="bar-item center" style="padding: 0; margin: 0;">French
+                <div class="container round deep-purple" style="width: 20%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>20%</i>
+                </div>
+              </p>
+            </div>
+        </li>
+        <li class="dropdown-hover border-0" style="width: 100%;">
+          <button onclick="openAcc('management')" class="button block">
+            Project management  <i class="fa fa-chevron-down"></i></button>
+            <div id="management" class="container hide pale-purple">
+              <p class="bar-item center" style="padding: 0; margin: 0;">Kanban
+                <div class="container round deep-purple" style="width: 70%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>70%</i>
+                </div>
+              </p>
+              <p class="bar-item center" style="padding: 0; margin: 0;">Scrum
+                <div class="container round deep-purple" style="width: 50%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>50%</i>
+                </div>
+              </p>
+              <p class="bar-item center" style="padding: 0; margin: 0;">Agile
+                <div class="container round deep-purple" style="width: 50%; font-size: 8px; padding: 0; margin: 0;">
+                  <i>50%</i>
+                </div>
+              </p>
+            </div>
+        </li>
+        <li class="dropdown-hover border-0" style="width: 100%;">
+          <button onclick="openAcc('Teaching')" class="button block">
+            Teaching  <i class="fa fa-chevron-down"></i></button>
+            <div id="Teaching" class="container hide pale-purple">
+              <p><b>10+</b> experience</p>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div class="container" style="padding:128px 16px" id="portfolio">
+  <h3 class="center">PORTFOLIO</h3>
+  <p class="center large">Transforming environmental insights into digital solutions.</p>
+  <div class="row-padding grayscale" style="margin-top:64px">
+    <div class="col m6 margin-bottom">
+      <div class="card">
+        <img src="coding2.jpg" alt="Project 1" style="width:100%; max-height: 200px;">
+        <div class="container">
+          <p class="opacity">Kivy Lab</p>
+          <p>An App created for learning and practicing many different elements in the Kivy library in Python.</p>
+          <p><button class="button light-grey block"><i class="fa fa-folder-open"></i> Know more</button></p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col m6 margin-bottom">
+      <div class="card">
+        <img src="coding3.jpg" alt="Project 2" style="width:100%; max-height: 200px;">
+        <div class="container">
+          <p class="opacity">Project 2</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="button light-grey block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container dark-gray" style="padding:128px 16px 32px" id="contact">
+  <h3 class="center">CONTACT</h3>
+  <div class="col m5" style="margin-top:32px">
+    <p><i class="fa fa-map-marker fa-fw xxlarge margin-right"></i> Curitiba - PR - Brazil</p>
+    <p><a class="link" target="_self" href="mailto:kkososki@gmail.com?subject=Contact%20from%20website"><i class="fa fa-envelope fa-fw xxlarge margin-right hover-opacity"></i> kkososki@gmail.com</a></p>
+    <p><a class="link" target="_blank" href="https://www.instagram.com/kkososki/"><i class="fa fa-instagram fa-fw xxlarge margin-right hover-opacity"></i> @kkososki</a></p>
+    <p><a class="link" target="_blank" href="https://www.linkedin.com/in/karla-barth-54631952/"><i class="fa fa-linkedin fa-fw xxlarge margin-right hover-opacity"></i> karla-barth-54631952</a></p>
+    <p><a class="link" target="_blank" href="https://github.com/kkososki"><i class="fa fa-github fa-fw xxlarge margin-right hover-opacity"></i> kkososki</a></p>
+    <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="center black padding-64">
+  <a href="#home" class="button"><i class="fa fa-chevron-up"></i></a>
+  <div class="xlarge section" style="padding-top: 28px;">
+    <a target="_blank" href="https://www.instagram.com/kkososki/"><i class="fa fa-instagram hover-opacity"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/karla-barth-54631952/"><i class="fa fa-linkedin hover-opacity"></i></a>
+    <a target="_blank" href="https://github.com/kkososki"><i class="fa fa-github hover-opacity"></i></a>
+    <a target="_self" href="mailto:kkososki@gmail.com?subject=Contact%20from%20website"><i class="fa fa-envelope hover-opacity"></i></a>
+  </div>
+</footer>
+ 
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function f_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function f_close() {
+    mySidebar.style.display = "none";
+}
+
+function openAcc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else {
+    x.className = x.className.replace(" show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>
